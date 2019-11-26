@@ -1,0 +1,37 @@
+{
+    "name": "apli/integration-rdstation",
+    "description": "Aplí RDStation Client Library",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.2",
+        "apli/oauth2-client": "^1.0"
+    },
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "authentication",
+        "client",
+        "api"
+    ],
+    "authors": [
+        {
+            "name": "Danilo Andrade",
+            "email": "danilo@webbingbrasil.com.br",
+            "homepage": "https://www.webbingbrasil.com.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Apli\\Integration\\RdStation\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-dev"
+        }
+    }
+}
